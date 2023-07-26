@@ -1,5 +1,8 @@
 # Clinical Patient Pathway Map
 
+![image](https://github.com/GallinM/test/assets/101252813/a4d2c330-3522-4d17-9f27-1e9e6d8e6248)
+
+
 ## Introduction
 This script demonstrates a visualisation for the process map that Alzheimer's patients take through the hospital system from the decision to refer to service to discharge.
 
