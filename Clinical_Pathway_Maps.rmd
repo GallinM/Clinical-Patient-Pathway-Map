@@ -130,6 +130,9 @@ Alz_process_80per <- Alz_data_process3 %>%
 # Create the process map to visualise the patient journeys
 process_map(Alz_process_80per, frequency("relative-case"))
 
+# Create the process map to visualise the duration between each stage of the patient journeys
+process_map(Alz_process_80per, performance(median, "days"))
+
 # Create an animated version of the process map to visualise the patient journeys
 animate_process(Alz_process_80per)
 ```
