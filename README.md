@@ -1,10 +1,15 @@
 # Clinical Patient Pathway Map
-
+![Alzheimer's Patient Pathway Map for github](https://github.com/GallinM/test/assets/101252813/58344bc5-8205-4c62-bc92-9e1ec7c543df)
 ## Introduction
 This script demonstrates a visualisation for the process map that Alzheimer's patients take through the hospital system from the decision to refer to service to discharge.
 
 ## Aim
 The aim of this project was to demonstrate a clinical patient pathway map through the hospital system for any given disease or condition. For the purpose of this script, Alzheimer's patients were used but this can be adapted via changing the ICD-10 codes.
+
+## Prerequisites
+- Access to the NHS England Unified Data Access Layer (UDAL) environment
+- Access to Secondary Uses Service (SUS) data
+- Access to the Performance Analysis Team database
 
 ## Methods
 This project was designed in RStudio in the NHS England Unified Data Access Layer (UDAL) environment and requires an NHS England UDAL login (the login is vacant and will need editing).
@@ -31,3 +36,7 @@ Distributed under the MIT License. See LICENSE.md for more information.
 
 ## Contact
 Project contact email: gallin.montgomery@nhs.net
+
+## Acknowledgements
+This project was based on helpful discussions with the NHS-R Community.
+- https://bupar.net/ 
