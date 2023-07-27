@@ -15,6 +15,7 @@ The aim of this project was to demonstrate a clinical patient pathway map throug
 This project was designed in RStudio in the NHS England Unified Data Access Layer (UDAL) environment and requires an NHS England UDAL login (the login is vacant and will need editing).
 Secondary Uses Service (SUS) data are read into the script from the Performance Analysis Team database.
 Data are filtered for Alzheimer's patients using relevant ICD-10 codes at a national level.
+OPCS level 4 codes are merged with the patient data to highlight the treatments delivered.
 Data are cleaned and organised into event logs.
 The 80% most frequent patient process pathways are identified and visualised as a static or animated process map.
 
