@@ -4,7 +4,7 @@
 This script demonstrates a visualisation for the process map that Alzheimer's patients take through the hospital system from the decision to refer to service to discharge.
 
 ## Aim
-The aim of this project was to demonstrate a clinical patient pathway map through the hospital system for any given disease or condition. For the purpose of this script, Alzheimer's patients were used but this can be adapted via changing the ICD-10 codes.
+The aim of this project was to demonstrate a clinical patient pathway map through the hospital system for any given disease or condition. For the purpose of this script, Alzheimer's patients were used but **this can be adapted via changing the ICD-10 codes**.
 
 ## Prerequisites
 - Access to the NHS England Unified Data Access Layer (UDAL) environment
