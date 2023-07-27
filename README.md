@@ -27,10 +27,25 @@ This script can show the stages and delays experienced throughout the patient jo
 
 ### Limitations
 This process only includes Secondary Uses Service (SUS) data. There is no information on primary care, community care, outpatients etc, there is potential to link this data however.
+
 Only primary OPCS level 4 codes are visualised, other OPCS level 4 treatment codes that are assigned to the patient are omitted from the visualisation.
+
 There is no information on the duration of the stage or treatment, only the time between the stages is documented.
+
 Durations between stages are only accurate to the nearest day.
+
 Different hospitals can have different clinical patient pathways, this can be overcome by filtering for region/ICS/hospital during the data cleaning.
+
+## Contributing
+Contributions are greatly appreciated.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 Distributed under the MIT License. See LICENSE.md for more information.
