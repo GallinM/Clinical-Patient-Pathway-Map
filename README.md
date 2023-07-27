@@ -4,7 +4,7 @@
 This script demonstrates a visualisation for the process map that Alzheimer's patients take through the hospital system from the decision to refer to service to discharge.
 
 ## Aim
-The aim of this project was to demonstrate a clinical patient pathway map through the hospital system for any given disease or condition. For the purpose of this script, Alzheimer's patients were used but **this can be adapted via changing the ICD-10 codes**.
+The aim of this project was to demonstrate a clinical patient pathway map through the NHS England hospital system for any given disease or condition. For the purpose of this script, Alzheimer's patients were used but **this can be adapted via changing the ICD-10 codes**.
 
 ## Prerequisites
 - Access to the NHS England Unified Data Access Layer (UDAL) environment
@@ -14,7 +14,7 @@ The aim of this project was to demonstrate a clinical patient pathway map throug
 ## Methods
 This project was designed in RStudio in the NHS England Unified Data Access Layer (UDAL) environment and requires an NHS England UDAL login (the login is vacant and will need editing).
 Secondary Uses Service (SUS) data are read into the script from the Performance Analysis Team database.
-Data are filtered for Alzheimer's patients using relevant ICD-10 codes.
+Data are filtered for Alzheimer's patients using relevant ICD-10 codes at a national level.
 Data are cleaned and organised into event logs.
 The 80% most frequent patient process pathways are identified and visualised as a static or animated process map.
 
@@ -30,6 +30,7 @@ This process only includes Secondary Uses Service (SUS) data. There is no inform
 Only primary OPCS level 4 codes are visualised, other OPCS level 4 treatment codes that are assigned to the patient are omitted from the visualisation.
 There is no information on the duration of the stage or treatment, only the time between the stages is documented.
 Durations between stages are only accurate to the nearest day.
+Different hospitals can have different clinical patient pathways, this can be overcome by filtering for region/ICS/hospital during the data cleaning.
 
 ## License
 Distributed under the MIT License. See LICENSE.md for more information.
